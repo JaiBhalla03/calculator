@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Calculator</title>
+	<link rel="stylesheet" type="text/css" href="prg_ht23.css">
+	<link rel="icon" href="calculator_icon.ico">
+</head>
+<body>
+	<style>
+	@import url('http://fonts.cdnfonts.com/css/led-digital-7');
+	</style>
+	<div id="cal_body">
+		<div id="cal_display">
+			<script type="text/javascript" src="prg_ht23.js"></script>
+			<form name="form"><input type="textview" name="textview" id="new_display"></form>
+		</div>
+		<div id="keypad">
+			<tr>
+				<td><button value="1" class="button" onclick="insert(1)">1</button></td>
+				<td><button value="2" class="button" onclick="insert(2)">2</button></td>
+				<td><button value="3" class="button" onclick="insert(3)">3</button></td>
+				<td><button value="+" class="button" onclick="insert('+')">+</button></td>
+			</tr>
+			<tr>
+				<td><button value="4" class="button" onclick="insert(4)">4</button></td>
+				<td><button value="5" class="button" onclick="insert(5)">5</button></td>
+				<td><button value="6" class="button" onclick="insert(6)">6</button></td>
+				<td><button value="-" class="button" onclick="insert('-')">-</button></td>
+			</tr>
+			<tr>
+				<td><button value="7" class="button" onclick="insert(7)">7</button></td>
+				<td><button value="8" class="button" onclick="insert(8)">8</button></td>
+				<td><button value="9" class="button" onclick="insert(9)">9</button></td>
+				<td><button value="&#215" class="button" onclick="insert('*')">&#215</button></td>
+			</tr>
+			<tr>
+				<td><button value="clc" class="button" onclick="clean()">clc</button></td>
+				<td><button value="0" class="button" onclick="insert(0)">0</button></td>
+				<td><button value="=" class="button" onclick="evalute()">=</button></td>
+				<td><button value="&#xF7" class="button" onclick="insert('/')">&#xF7</button></td>
+			</tr>
+			<tr>
+				<td><button value="<" class="button" onclick="backs()">Del</button></td>
+				<td><button value="bl" class="button" onclick="insert()"></button></td>
+				<td><button value="bl" class="button" onclick="evalute()"></button></td>
+				<td><button value="." class="button" onclick="insert('.')">.</button></td>
+			</tr>
+		</div>
+	</div>
+</body>
+</html> 

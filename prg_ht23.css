@@ -1,0 +1,64 @@
+#new_display{
+	border-color: #000000;
+	background-color: #66ff99;
+	border-width: 4px;
+	width: 400px;
+	height: 100px;
+	margin: 15px;
+	text-align: center;
+	border-radius: 20px;
+	z-index: 2;
+	font-size: 40px;
+	font-family: cursive;
+	font-weight: bold;
+	color: white;
+	column-span: 4;
+	box-shadow: 2px 2px 8px white;
+	border-color: #1aff66;
+}
+
+#new_display:hover{
+	background-color: #00b33c;
+}
+#keypad{
+	height: 400px;
+	width: 400px;
+	margin: 0 auto;
+
+}
+
+.button{
+	width: 93px;
+	height: 80px;
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 40px;
+	border: none;
+	border-radius: 30px;
+	margin: 2px;
+}
+.button:hover{
+	background-color: #808080;
+	color: white;
+	box-shadow: 1px 1px 2px white;
+}
+
+.button:active{
+	background-color: #000000;
+}
+#cal_body{
+	margin: 20px auto;
+	width: 440px;
+	height: 570px;
+	border-color: black;
+	border-width: 1px;
+	background-color: #262626;
+	padding: 20px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px white;
+	
+}
+
+body{
+	background-color: yellow;
+}
